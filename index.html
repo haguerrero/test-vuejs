@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Vue.js</title>
+</head>
+<body>
+    <div id="app">
+        <hello-world></hello-world>
+    
+        <vue-directives></vue-directives>
+        <!-- <h1>{{ title }}</h1> -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="./componets/HelloWorld.js"></script>
+    <script src="./componets/VueDirectives.js"></script>
+    <script>
+        let vm = new Vue({
+            el: '#app',
+            // data(){
+            //     return {
+            //         title: 'Mi primera App de Vue.'
+            //     }
+            // }
+        })
+    </script>
+    
+</body>
+</html>
