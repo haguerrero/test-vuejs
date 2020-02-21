@@ -7,7 +7,7 @@ Vue.component('saludar-comp', {
         return {
             titulo: 'Hola Mundo',
             nombre: 'Hugo Guerrero',
-            pais: 'Venezuela (refugiado en Perú)',
+            pais: 'Venezuela',
             clickAfuera: 'No hagas click en el botón'
         }
     },
