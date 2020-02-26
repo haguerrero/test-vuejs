@@ -3,8 +3,13 @@ Vue.component('vue-directives', {
         <h1 v-text="title"></h1>
         <p v-text="text"></p>
         <a v-bind:href="link.href" v-bind:title="link.title" v-text="link.text"></a>
+        <hr>
         <DirectiveHtml/>
         <DirectiveModel/>
+        <DirectiveShow/>
+        <DirectiveIf/>
+        <DirectiveFor/>
+        <DirectiveOn/>
 
     </div>`,
     data() {
@@ -20,6 +25,10 @@ Vue.component('vue-directives', {
     },
     components: {
         DirectiveHtml, 
-        DirectiveModel
+        DirectiveModel,
+        DirectiveShow,
+        DirectiveIf,
+        DirectiveFor,
+        DirectiveOn,
     }
 })
